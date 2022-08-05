@@ -1,0 +1,42 @@
+*{font-family: 'Didact Gothic', sans-serif;}
+a{ text-decoration: none; cursor: pointer;}
+
+/* HELPERS */
+
+.backgprincipal {background-color:#cc9966}
+.backgwhite {background-color: #ffffff}
+.backggrey {background-color: #cccccc}
+
+/* CONTAINER */
+
+#container {
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+}
+
+header img{
+    height: 50px;
+    padding: 30px 40px;
+    padding-right: 10px;
+}
+
+header h1{
+    font-size: 1.9rem;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+header p{
+    font-size: 0.9rem;
+}
+
+h1 span {
+    color: #cc9966;
+}
