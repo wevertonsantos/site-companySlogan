@@ -1,4 +1,4 @@
-*{font-family: 'Didact Gothic', sans-serif;}
+*{padding: 0;margin: 0; font-size: 100%; font-family: 'Didact Gothic', sans-serif; box-sizing: border-box;}
 a{ text-decoration: none; cursor: pointer;}
 
 /* HELPERS */
@@ -7,36 +7,77 @@ a{ text-decoration: none; cursor: pointer;}
 .backgwhite {background-color: #ffffff}
 .backggrey {background-color: #cccccc}
 
+/* DIAGONAL BOX */
+
+
 /* CONTAINER */
 
-#container {
-    background-color: #cccccc;
-    height: 500px;
-    width: 100%;
+.content {
+    background:linear-gradient(to right, #cccccc, #ffffff);
+    height: 800px;
+    width:  100%;
 }
 
-/* HEADER */
+/* LOGO */
 
-header{
+.logo{
     display: flex;
+    margin-right: 0;
+    width: 100px;
+    height: 100px;
 }
 
-header img{
-    height: 50px;
+.logo img{
+    height: 110px;
     padding: 30px 40px;
     padding-right: 10px;
 }
 
-header h1{
+.logo h1{
     font-size: 1.9rem;
-    padding-top: 20px;
-    line-height: 10px;
+    padding-top: 35px;
+    line-height: 25px;
+    height: 0;
+    width: 0;
 }
 
-header p{
-    font-size: 0.9rem;
+.logo  p{
+    padding: 60px 10px;
+    height: 0;
+    font-size: 0.90rem;
 }
 
-h1 span {
+.logo h1 span {
     color: #cc9966;
 }
+
+/* MORE INFO */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    background-color: red;
+}
+
+.info p {
+    height: 10px;
+    text-align: end;
+    padding: 15px 40px;
+    width: 0px;
+}
+
+.info h2 {
+    border-top: 0;
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
