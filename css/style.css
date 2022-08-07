@@ -7,24 +7,24 @@ a{ text-decoration: none; cursor: pointer;}
 .backgwhite {background-color: #ffffff}
 .backggrey {background-color: #cccccc}
 
-/* DIAGONAL BOX */
-
-
 /* CONTAINER */
 
-.content {
-    background:linear-gradient(to right, #cccccc, #ffffff);
-    height: 800px;
-    width:  100%;
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* LOGO */
 
-.logo{
+.logo {
+    padding-top: 10px;
     display: flex;
-    margin-right: 0;
-    width: 100px;
     height: 100px;
+    width: 32%;
 }
 
 .logo img{
@@ -34,16 +34,14 @@ a{ text-decoration: none; cursor: pointer;}
 }
 
 .logo h1{
-    font-size: 1.9rem;
-    padding-top: 35px;
-    line-height: 25px;
-    height: 0;
+    padding-top: 25px;
     width: 0;
+    height: 50px;
+    font-size: 1.9rem;
 }
 
-.logo  p{
-    padding: 60px 10px;
-    height: 0;
+.logo p{
+    padding-top: 60px;
     font-size: 0.90rem;
 }
 
@@ -51,26 +49,78 @@ a{ text-decoration: none; cursor: pointer;}
     color: #cc9966;
 }
 
-/* MORE INFO */
+/* INFO */
 
 .info {
+    max-width: 100%;
+    border-radius: 10px 0 0 150px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    background-color: #cc9966;
     height: 100px;
-    background-color: red;
+    width: 360px;
+    justify-content: center;
+    padding-left: 9%;
 }
 
-.info p {
-    height: 10px;
-    text-align: end;
-    padding: 15px 40px;
-    width: 0px;
+.info p, h2{
+    color: #ffffff;
 }
 
-.info h2 {
-    border-top: 0;
-    text-align: end;
+.info p{
+    padding-left: 100px;
+}
+
+.info h2{
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+/* MAIN */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .hero-text{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 370px;
+    padding: 50px 50px;
+    border-radius: 0 140px 55px 0;
+    color: white;
+    background-color: #cc9966;
+    opacity: 0.7;
+}
+
+.hero .hero-text h1 {
+    line-height: 40px;
+    font-size: 3rem;
+    opacity: 1.0;
+}
+
+.hero-text p {
+    margin-top: 60px;
+    font-size: 1rem;
+}
+
+.hero img{
+    padding-left: 125px;
+    right: 0px;
+    border-radius: 30px 40px 0 100px;
+    height: 400px;
+}
+
+.rodape {
+    margin-top: 50px;
+    height: 100px;
+    background-color: #fff;
 }
 
 
