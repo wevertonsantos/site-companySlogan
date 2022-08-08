@@ -7,6 +7,7 @@ site simples, mas deu pra fixar mais os conhecimentos
 adquiridos com meus esforços e estudos. </p>
 
 <p> Modelo fornecido para se basear </p>
+
 ![alt-text](https://github.com/wevertonsantos/site-companySlogan/blob/main/siteSloganModelo.PNG)
 
 <p> Modelo feito por mim <p>
